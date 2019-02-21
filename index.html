@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"> 
+    <title>Inicio</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/carousel.css">
+	<link rel="stylesheet" href="css/starter-template.css">
+	<link rel="stylesheet" href="css/floating-labels.css">
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<form class="form-signin" name="Entrada" action="validar.php" method="GET">
+  <div class="text-center mb-4">
+    <img class="mb-4" src="imagenes/entrar.png" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 font-weight-normal">Login</h1>
+      <p>Introduce tu nombre de usuario y contraseña si ya estás registrado o <a href="registrar.php">registrate</a> en caso contrario. Si no recuerdas la contraseña haz clic en <a href="recuperar_pwd.php">aquí.</a></p>
+  </div>
+
+  <div class="form-label-group">
+    <input type="text" id="inputUsuario" name="usuario" class="form-control" placeholder="Email" required autofocus>
+    <label for="inputEmail">Introduce Usuario</label>
+  </div>
+
+  <div class="form-label-group">
+    <input type="password" id="inputPassword" name="pwd" class="form-control" placeholder="Password" required>
+    <label for="inputPassword">Contraseña</label>
+  </div>
+
+  <div class="checkbox mb-3">
+    <label>
+      <input type="checkbox" value="remember-me"> Remember me
+    </label>
+  </div>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+  <p class="mt-5 mb-3 text-muted text-center">&copy; Curso 2018-2019. 2º ASIR.</p>
+</form>
+
+</body>
+</html>
